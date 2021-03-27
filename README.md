@@ -17,6 +17,10 @@ The goal of this lab is to:
 
 Completing the above is crucial for the remaining quarter.
 
+The materials for this week can be found in the `week01` folder, which contains:
+- `lab01.ipynb` -- the week 1 lab notebook;
+- `lab01.html` -- the week 1 lab notebook rendered as an html (for easy reference).
+
 ## Week 2
 
 ## Week 3
