@@ -13,7 +13,7 @@ The goal of this lab is to:
 - Set up our work environment (download and install Julia + Jupyter);
 - Cover some Jupyter Notebook basics;
 - Cover some Julia basics;
-- Demonstrate simple optimization and linear algebra applications in Julia.
+- Demonstrate simple linear algebra applications in Julia.
 
 **Note:** Completing the above is crucial for the remaining quarter!
 
