@@ -9,11 +9,11 @@ Materials will be updated and new materials will be posted as we progress into t
 ## Week 1
 
 The goal of this lab is to:
+- Set up GitHub (to keep track of repo updates);
 - Set up our work environment (download and install Julia + Jupyter);
 - Cover some Jupyter Notebook basics;
 - Cover some Julia basics;
-- Demonstrate simple optimization and linear algebra applications in Julia;
-- Learn how to use GitHub (to keep track of repo updates).
+- Demonstrate simple optimization and linear algebra applications in Julia.
 
 **Note:** Completing the above is crucial for the remaining quarter!
 
