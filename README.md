@@ -4,7 +4,7 @@ This repo contains lab materials (and other helpful Julia resources) for David E
 
 All lab work will be done using Jupyter Notebook.
 
-Materials will be updated and new materials will be posted as we progress into the Spring quarter. I will email the class about all major updates/additions as they happen. You can also stay on top of all changes to the repo independently by creating a GitHub account, installing GitHub Desktop locally on your computer, and then frequently pulling from the repo. 
+Materials will be updated and new materials will be posted as we progress into the Spring quarter. I will email the class about all major updates/additions as they happen. You can also stay on top of all changes by frequently pulling from the repo. 
 
 ## Week 1
 
