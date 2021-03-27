@@ -15,7 +15,7 @@ The goal of this lab is to:
 - Demonstrate simple optimization and linear algebra applications in Julia;
 - Learn how to use GitHub (to keep track of repo updates).
 
-Completing the above is crucial for the remaining quarter.
+**Note:** Completing the above is crucial for the remaining quarter!
 
 The materials for this week can be found in the `week01` folder, which contains:
 - `lab01.ipynb` -- the week 1 lab notebook;
