@@ -12,8 +12,7 @@ The goal of this lab is to:
 - Set up GitHub (to keep track of repo updates);
 - Set up our work environment (download and install Julia + Jupyter);
 - Cover some Jupyter Notebook basics;
-- Cover some Julia basics;
-- Demonstrate simple linear algebra applications in Julia.
+- Cover some Julia basics.
 
 **Note:** Completing the above is crucial for the remaining quarter!
 
