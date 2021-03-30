@@ -17,10 +17,9 @@ The goal of this lab is to:
 **Note:** Completing the above is crucial for the remaining quarter!
 
 The materials for this week can be found in the `week01` folder, which contains:
-- `lab01.ipynb` -- week 1 lab [notebook](week01/lab01.ipynb);
-- `lab01.pdf` -- week 1 lab [pdf](week01/lab01.pdf);
+- `lab01.ipynb` -- week 1 lab [notebook](week01/lab01.ipynb).
 
-You should be able to view rendered versions of both of the above documents by navigating to them here on GitHub. Other than for printing, I do not recommend the pdf file.
+You should be able to view rendered versions of both of the above documents by navigating to them here on GitHub.
 
 ## Week 2
 
