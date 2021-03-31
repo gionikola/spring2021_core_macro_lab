@@ -25,8 +25,8 @@ You should be able to view rendered versions of both of the above documents by n
 
 This lab will cover:
 - User-defined functions;
-- Linear algebra applications;
 - Solvers and optimization;
+- Linear algebra applications;
 - Modeling finite Markov chains.
 
 The materials for this week can be found in the `week02` folder, which contains:
