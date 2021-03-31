@@ -23,6 +23,15 @@ You should be able to view rendered versions of both of the above documents by n
 
 ## Week 2
 
+This lab will cover:
+- User-defined functions;
+- Linear algebra applications;
+- Solvers and optimization;
+- Modeling finite Markov chains.
+
+The materials for this week can be found in the `week02` folder, which contains:
+- `lab02.ipynb` -- week 2 lab [notebook](week02/lab02.ipynb). 
+
 ## Week 3
 
 ## Week 4
