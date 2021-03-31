@@ -146,6 +146,7 @@ In this case, loading LinearAlgebra with `using` will not work, since we first n
 ```julia
 using Pkg # Load `Pkg`, which can be used to install packages
 Pkg.add("LinearAlgebra") # Install `LinearAlgebra` package
+using LinearAlgebra
 ```
 
     [32m[1m  Resolving[22m[39m package versions...
@@ -176,7 +177,7 @@ message
 
 
 
-    "x = -0.41855672790727266 and y = 0.20941356839377148, therefore condition A is false."
+    "x = -1.1073262538888373 and y = -1.7756952833062138, therefore condition A is true."
 
 
 
@@ -208,7 +209,7 @@ typeof(x)
 
 
 
-    Float64
+    Array{Int64,1}
 
 
 
@@ -254,14 +255,23 @@ Since we have a float `x` and an integer `y`, let's test out some basic arithmet
 @show x^(-1);
 ```
 
-    x + y = 4.581443272092727
-    x - y = -5.418556727907273
-    x * y = -2.0927836395363633
-    x / y = -0.08371134558145453
-    x - -y = 4.581443272092727
-    3x - 4y = -21.25567018372182
-    x ^ -1 = -2.3891624081635614
+
+    MethodError: no method matching +(::Array{Int64,1}, ::Int64)
+    For element-wise addition, use broadcasting with dot syntax: array .+ scalar
+    Closest candidates are:
+      +(::Any, ::Any, ::Any, ::Any...) at operators.jl:538
+      +(::Missing, ::Number) at missing.jl:115
+      +(::Base.CoreLogging.LogLevel, ::Integer) at logging.jl:116
+      ...
+
     
+
+    Stacktrace:
+
+     [1] top-level scope at show.jl:641
+
+     [2] include_string(::Function, ::Module, ::String, ::String) at .\loading.jl:1091
+
 
 Notice that we used the `@show` macro the print out equations.
 Furthermore, we ended the last line of the cell with a `;` to supress the redundant printing of the output of `x^(-1)`. 
@@ -283,9 +293,25 @@ z2 = false # define a false boolean
     z1 + 0 = 1
     z2 + 0 = 0
     z1 + z2 = 1
-    x + z1 = 0.5814432720927274
-    x * z1 = -0.41855672790727266
     
+
+
+    MethodError: no method matching +(::Array{Int64,1}, ::Bool)
+    For element-wise addition, use broadcasting with dot syntax: array .+ scalar
+    Closest candidates are:
+      +(::Any, ::Any, ::Any, ::Any...) at operators.jl:538
+      +(::Missing, ::Number) at missing.jl:115
+      +(::Bool, ::Bool) at bool.jl:96
+      ...
+
+    
+
+    Stacktrace:
+
+     [1] top-level scope at show.jl:641
+
+     [2] include_string(::Function, ::Module, ::String, ::String) at .\loading.jl:1091
+
 
 Let's give `x` and `y` imaginary components, and play around with the resulting imaginary numbers.
 
@@ -302,16 +328,23 @@ Let's give `x` and `y` imaginary components, and play around with the resulting 
 @show x^(-1);
 ```
 
-    x = x + 3im = -0.41855672790727266 + 9.0im
-    y = y + 2im = 5 + 6im
-    x + y = 4.581443272092727 + 15.0im
-    x - y = -5.418556727907273 + 3.0im
-    x * y = -56.092783639536364 + 42.48865963255636im
-    x / y = 0.8509379731223545 + 0.7788744322531742im
-    x - -y = 4.581443272092727 + 15.0im
-    3x - 4y = -21.25567018372182 + 3.0im
-    x ^ -1 = -0.005156214962679721 - 0.1108713146152038im
+
+    MethodError: no method matching +(::Array{Int64,1}, ::Complex{Int64})
+    For element-wise addition, use broadcasting with dot syntax: array .+ scalar
+    Closest candidates are:
+      +(::Any, ::Any, ::Any, ::Any...) at operators.jl:538
+      +(::Missing, ::Number) at missing.jl:115
+      +(::Bool, ::Complex) at complex.jl:293
+      ...
+
     
+
+    Stacktrace:
+
+     [1] top-level scope at show.jl:641
+
+     [2] include_string(::Function, ::Module, ::String, ::String) at .\loading.jl:1091
+
 
 ### Introduction to Arrays
 
@@ -472,7 +505,7 @@ A'
 
 
 
-    2×2 LinearAlgebra.Adjoint{Int64,Array{Int64,2}}:
+    2×2 Adjoint{Int64,Array{Int64,2}}:
      1  3
      2  4
 
@@ -522,7 +555,7 @@ A[2,:]'
 
 
 
-    1×2 LinearAlgebra.Adjoint{Int64,Array{Int64,1}}:
+    1×2 Adjoint{Int64,Array{Int64,1}}:
      3  4
 
 
@@ -652,9 +685,9 @@ y
 
 
     3-element Array{Int64,1}:
-     241270592
-     145391712
-     145395680
+     230286480
+     387663984
+     387664016
 
 
 
@@ -671,10 +704,10 @@ y
 
 
     4-element Array{Int64,1}:
-             2
-             1
-     145359361
-     387677600
+     1
+     0
+     0
+     0
 
 
 
@@ -691,8 +724,8 @@ y
 
 
     2×2 Array{Int64,2}:
-     232385536  145391776
-     387794336  379442896
+     230286480  399933536
+     399900928  165547088
 
 
 
@@ -979,7 +1012,7 @@ tup[2] = 2.0
 
     Stacktrace:
 
-     [1] top-level scope at In[77]:1
+     [1] top-level scope at In[148]:1
 
      [2] include_string(::Function, ::Module, ::String, ::String) at .\loading.jl:1091
 
