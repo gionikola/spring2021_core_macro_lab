@@ -949,7 +949,75 @@ rank(A)
 
 ### Tuples
 
+Tuples are essentially **immutable** data containers.
 
+Let's create one:
+
+
+```julia
+tup = ("macro", 3.0, 2021)
+```
+
+
+
+
+    ("macro", 3.0, 2021)
+
+
+
+Now let's try to change the second entry of `tup` to `1.0` (something that we often do with arrays):
+
+
+```julia
+tup[2] = 2.0
+```
+
+
+    MethodError: no method matching setindex!(::Tuple{String,Float64,Int64}, ::Float64, ::Int64)
+
+    
+
+    Stacktrace:
+
+     [1] top-level scope at In[77]:1
+
+     [2] include_string(::Function, ::Module, ::String, ::String) at .\loading.jl:1091
+
+
+We obtained an error precisely because of the **immutability** of tuples -- once we define a tuple, we cannot change its entry values.
+
+Let's try to store tuple entries as distinct variables:
+
+
+```julia
+class, quarter, year = tup
+"Year: $year, Quarter: $quarter, Class: $class"
+```
+
+
+
+
+    "Year: 2021, Quarter: 3.0, Class: macro"
+
+
+
+We may also create **named tuples** and merge them:
+
+
+```julia
+tup3 = (q1 = "Fall", )
+tup4 = (q2 = "Winter", q3 = "Spring")
+tup5 = merge(tup3, tup4)
+```
+
+
+
+
+    (q1 = "Fall", q2 = "Winter", q3 = "Spring")
+
+
+
+Notice that to define a tuple with only one entry, we still need to include a comma with nothing to its right in the declaration.
 
 ### User-Defined Functions
 
