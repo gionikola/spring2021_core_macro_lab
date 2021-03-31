@@ -1018,7 +1018,3 @@ tup5 = merge(tup3, tup4)
 
 
 Notice that to define a tuple with only one entry, we still need to include a comma with nothing to its right in the declaration.
-
-### User-Defined Functions
-
-
