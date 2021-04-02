@@ -34,6 +34,12 @@ The materials for this week can be found in the `week02` folder, which contains:
 
 ## Week 3
 
+This week's lab will cover:
+- The McCall Search Model.
+
+The materials for this week can be found in the `week03` folder, which contains:
+- `lab03.ipynb` -- week 3 lab [notebook](week03/lab03.ipynb).
+
 ## Week 4
 
 ## Week 5
