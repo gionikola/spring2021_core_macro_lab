@@ -35,7 +35,8 @@ The materials for this week can be found in the `week02` folder, which contains:
 ## Week 3
 
 This week's lab will cover:
-- The McCall Search Model.
+- The McCall Search Model;
+- Value function iteration.
 
 The materials for this week can be found in the `week03` folder, which contains:
 - `lab03.ipynb` -- week 3 lab [notebook](https://nbviewer.jupyter.org/github/gionikola/spring2021_core_macro_lab/blob/main/week03/lab03.ipynb).
