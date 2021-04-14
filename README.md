@@ -17,7 +17,7 @@ The goal of this lab is to:
 **Note:** Completing the above is crucial for the remaining quarter!
 
 The materials for this week can be found in the `week01` folder, which contains:
-- `lab01.ipynb` -- week 1 lab [notebook](week01/lab01.ipynb).
+- `lab01.ipynb` -- week 1 lab [notebook](https://nbviewer.jupyter.org/github/gionikola/spring2021_core_macro_lab/blob/main/week01/lab01.ipynb).
 
 You should be able to view rendered versions of both of the above documents by navigating to them here on GitHub.
 
@@ -30,7 +30,7 @@ This lab will cover:
 - Modeling finite Markov chains.
 
 The materials for this week can be found in the `week02` folder, which contains:
-- `lab02.ipynb` -- week 2 lab [notebook](week02/lab02.ipynb). 
+- `lab02.ipynb` -- week 2 lab [notebook](https://nbviewer.jupyter.org/github/gionikola/spring2021_core_macro_lab/blob/main/week02/lab02.ipynb). 
 
 ## Week 3
 
@@ -38,7 +38,7 @@ This week's lab will cover:
 - The McCall Search Model.
 
 The materials for this week can be found in the `week03` folder, which contains:
-- `lab03.ipynb` -- week 3 lab [notebook](week03/lab03.ipynb).
+- `lab03.ipynb` -- week 3 lab [notebook](https://nbviewer.jupyter.org/github/gionikola/spring2021_core_macro_lab/blob/main/week03/lab03.ipynb).
 
 ## Week 4
 
