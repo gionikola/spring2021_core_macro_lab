@@ -44,9 +44,9 @@ The materials for this week can be found in the `week03` folder, which contains:
 ## Week 4
 
 This week's lab will cover:
-- Computing equilibria with complete markets.
+- Using the Negishi algorithm to compute equilibria in Arrow-Debreu economies;
 
-The materials for this week can be found in the `week03` folder, which contains:
+The materials for this week can be found in the `week04` folder, which contains:
 - `lab04.ipynb` -- week 4 lab [notebook](https://nbviewer.jupyter.org/github/gionikola/spring2021_core_macro_lab/blob/main/week04/lab04.ipynb).
 
 ## Week 5
