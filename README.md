@@ -51,6 +51,8 @@ The materials for this week can be found in the `week04` folder, which contains:
 
 ## Week 5
 
+This week we'll take a little break from Julia, and instead go through a practice midterm.
+
 ## Week 6
 
 ## Week 7
