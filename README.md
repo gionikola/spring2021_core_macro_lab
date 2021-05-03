@@ -44,7 +44,7 @@ The materials for this week can be found in the `week03` folder, which contains:
 ## Week 4
 
 This week's lab will cover:
-- Using the Negishi algorithm to compute equilibria in Arrow-Debreu economies;
+- Using the Negishi algorithm to compute equilibria in Arrow-Debreu economies.
 
 The materials for this week can be found in the `week04` folder, which contains:
 - `lab04.ipynb` -- week 4 lab [notebook](https://nbviewer.jupyter.org/github/gionikola/spring2021_core_macro_lab/blob/main/week04/lab04.ipynb).
@@ -56,7 +56,9 @@ This week we'll take a little break from Julia, and instead go through a practic
 ## Week 6
 
 This week's lab will cover:
-- Solving neoclassical growth models using value function iteration.
+- A basic growth model;
+- Dynamic programming;
+- Finding policy functions using value function iteration.
 
 The materials for this week can be found in the `week06` folder, which contains:
 - `lab06.ipynb` -- week 6 lab [notebook](https://nbviewer.jupyter.org/github/gionikola/spring2021_core_macro_lab/blob/main/week06/lab06.ipynb).
