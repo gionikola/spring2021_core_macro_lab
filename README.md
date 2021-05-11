@@ -65,6 +65,8 @@ The materials for this week can be found in the `week06` folder, which contains:
 
 ## Week 7
 
+This week we'll switch back to pencil and paper once more to analytically solve a decentralized growth model similar to the one covered in Week 6.
+
 ## Week 8
 
 ## Week 9
