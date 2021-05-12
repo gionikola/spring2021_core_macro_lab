@@ -65,7 +65,14 @@ The materials for this week can be found in the `week06` folder, which contains:
 
 ## Week 7
 
-This week we'll switch back to pencil and paper once more to analytically solve a decentralized growth model similar to the one covered in Week 6.
+This week's lab will cover:
+- Solving for recursive competitive equilibria using both centralized and decentralized approaches;
+- Finding policy functions using value function iteration;
+- Finding optimal price systems under recursive competitive equilibria;
+- Simulating recursive competitive equilibria.
+
+The materials for this week can be found in the `week07` folder, which contains:
+- `lab07.ipynb` -- week 7 lab [notebook](https://nbviewer.jupyter.org/github/gionikola/spring2021_core_macro_lab/blob/main/week07/lab07.ipynb).
 
 ## Week 8
 
