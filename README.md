@@ -76,6 +76,8 @@ The materials for this week can be found in the `week07` folder, which contains:
 
 ## Week 8
 
+This week we'll go through assignment \#5. No Julia.
+
 ## Week 9
 
 ## Week 10
