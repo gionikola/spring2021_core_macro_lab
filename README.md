@@ -81,7 +81,7 @@ This week we'll go through assignment \#5. No Julia.
 ## Week 9
 
 This week's lab will cover:
-- Computing for the stationary equilibrium of a Hugget model.
+- Computing for the stationary equilibrium of a Huggett model.
 
 
 The materials for this week can be found in the `week07` folder, which contains:
