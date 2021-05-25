@@ -80,4 +80,11 @@ This week we'll go through assignment \#5. No Julia.
 
 ## Week 9
 
+This week's lab will cover:
+- Computing for the stationary equilibrium of a Hugget model.
+
+
+The materials for this week can be found in the `week07` folder, which contains:
+- `lab09.ipynb` -- week 9 lab [notebook](https://nbviewer.jupyter.org/github/gionikola/spring2021_core_macro_lab/blob/main/week09/lab09.ipynb).
+
 ## Week 10
