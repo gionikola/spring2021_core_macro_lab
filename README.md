@@ -88,3 +88,5 @@ The materials for this week can be found in the `week09` folder, which contains:
 - `lab09.ipynb` -- week 9 lab [notebook](https://nbviewer.jupyter.org/github/gionikola/spring2021_core_macro_lab/blob/main/week09/lab09.ipynb).
 
 ## Week 10
+
+We will finish the quarter (and the year) off with a practice exam. 
